@@ -1,0 +1,30 @@
+html, body{
+  margin: 0px;
+  background-image: url('https://images.pexels.com/photos/7332047/pexels-photo-7332047.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  backface-visibility: hidden;
+  color: white;
+
+}
+
+.titulo{
+  text-align: center;
+  background-color: black;
+  color: aliceblue;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.carta{
+position: relative;
+  width: 150px;
+  left: 100px;
+  margin-left: -75px;
+
+}
+
+#computadora-cartas, jugador-cartas{
+  height: 240px;
+}
